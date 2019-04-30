@@ -1,0 +1,32 @@
+{
+    "name": "A Basic PWA Calculator",
+    "short_name": "Calc",
+    "start_url": "/",
+    "display": "standalone",
+    "orientation": "portrait",
+    "background_color": "#3858c5",
+    "theme_color": "#85878d",
+    "description": "A Basic Progressive Web App Calculator with features like Menifest, Offline, Service Worker",
+    "icons": [
+        {
+            "src": "/asset/images/icons/app-icon-96x96.png",
+            "size": "96x96",
+            "type": "image/png"
+        },
+        {
+            "src": "/asset/images/icons/app-icon-144x144.png",
+            "size": "144x144",
+            "type": "image/png"
+        },
+        {
+            "src": "/asset/images/icons/app-icon-256x256.png",
+            "size": "256x256",
+            "type": "image/png"
+        },
+        {
+            "src": "/asset/images/icons/app-icon-512x512.png",
+            "size": "512x512",
+            "type": "image/png"
+        }
+    ]
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>PWA Calculator</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="initial-scale=1,width=device-width">
+        <meta name="description" content="Calculator built with HTML CSS JS">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="manifest" href="/manifest.json">
+    </head>
+    <body>
+        <main class="fadeIn">
+            <div class="main">
+                <article class="calculator">
+                    <section class="calculator_header">
+                        <svg class="soundIcon" xmlns="http://www.w3.org/2000/svg" fill="rgba(31,37,37,0)" viewBox="0 0 43.54 40">
+                            <path d="M6,13H0V27H6L16,40h5V0H16.3ZM16,31.8,10,24,8.5,22H5V18H8.42l1.5-1.9L16,8.43Z"></path>
+                            <path class="soundIcon__wave" d="M30.9,10.1l-3.53,3.53a9,9,0,0,1,0,12.73h0l3.53,3.53A14,14,0,0,0,30.9,10.1Z"></path>
+                            <path class="soundIcon__wave" d="M36.93,4.07,33.4,7.6a17.54,17.54,0,0,1,0,24.81h0l3.53,3.53A22.51,22.51,0,0,0,37,4.11l0,0Z"></path>
+                            <path class="soundIcon__stripe" d="M.28,32.29h0L25,1.18l3.82,3L4.1,35.32l-3.82-3Z"></path>
+                        </svg>        
+                        <div class="calculator_memory"></div>
+                        <div class="calculator_result">0</div>
+                    </section>
+
+                    <section class="calculator_body">
+                        <button type="button" data-action="reset">C</button>
+                        <button type="button" data-action="signchange">±</button>
+                        <button type="button" data-action="remainder">%</button>
+                        <button type="button" class="operator" data-action="divide">÷</button>
+                        <button type="button">7</button> 
+                        <button type="button">8</button>
+                        <button type="button">9</button>
+                        <button type="button" class="operator" data-action="multiply">×</button>
+                        <button type="button">4</button>
+                        <button type="button">5</button>
+                        <button type="button">6</button>
+                        <button type="button" class="operator" data-action="subtract">-</button>
+                        <button type="button">1</button>
+                        <button type="button">2</button>
+                        <button type="button">3</button>
+                        <button type="button" class="operator" data-action="add">+</button>
+                        <button type="button">0</button>
+                        <button type="button" data-action="decimal">.</button>
+                        <button type="button" data-action="backspace">⌫</button>
+                        <button type="button" class="equal_operator" data-action="calculate">=</button>
+                    </section>
+                </article>
+            </div>
+        </main> 
+        <script src="script.js"></script>
+    </body>
+</html>
